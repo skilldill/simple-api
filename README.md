@@ -12,7 +12,7 @@ npm install
 npm run start
 ```
 
-#### Описание пакетов
+#### Описание используемых пакетов
 
 - express - веб-фреймворк для быстрого создания API
 ```js
@@ -46,7 +46,7 @@ dotenv.config();
 // Read APP_NAME env from .env
 const APP_NAME = process.env.APP_NAME;
 ```
-- uuid
+- uuid - для получения рандомных hash-значений
 ```js
 import { v4 as uuid } from "uuid";
 
